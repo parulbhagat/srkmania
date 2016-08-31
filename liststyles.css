@@ -1,0 +1,33 @@
+#list{
+	position:absolute;
+	top:40%;
+
+}
+#list p{
+	font-size:2em;
+	position:relative;
+	left:40%;
+	font-weight:bold;
+	text-shadow:1px 1px 1px red;
+}
+#list ul{
+	position:relative;
+	left:40%;
+	padding:10%;
+}
+#list li{
+	list-style-type:none;
+	padding:5%;
+	font-size:1.3em;
+}
+#list li a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+#list li a:hover{
+	text-decoration:underline;
+}
+#list img{
+	float:right;
+}
