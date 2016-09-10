@@ -1,24 +1,32 @@
 #list{
 	position:absolute;
 	top:40%;
-
+	width:100%;
+	margin:0px;	
 }
 #list p{
 	font-size:2em;
 	position:relative;
-	left:40%;
+	padding:0.3% 0% 0.3% 0%;
+	text-align:center;
 	font-weight:bold;
 	text-shadow:1px 1px 1px red;
 }
 #list ul{
 	position:relative;
-	left:40%;
-	padding:10%;
+	left:5%;
+	padding:0%;
+	padding-top:1%;
+	column-count:4;
+	width:90%;
+	margin:0px;
 }
 #list li{
 	list-style-type:none;
 	padding:5%;
 	font-size:1.3em;
+	display:inline-block;
+
 }
 #list li a{
 	text-decoration:none;
@@ -30,4 +38,40 @@
 }
 #list img{
 	float:right;
+}
+
+.video{
+	position:absolute;
+	left:17%;
+	top:50%;
+	padding-bottom:2%;
+}
+span{
+	text-decoration:underline;
+}
+h2{
+	position:relative;
+	left:5%;
+	padding:1.5%;
+	padding-bottom:0%;
+}
+h4{
+	position:absolute;
+	bottom:1%;
+	left:30%;
+	margin:0px;
+	padding:0px;
+	text-align:center;
+}
+h3{
+	position:relative;
+	padding:0.5%;
+	text-align:center;
+}
+#watchmovie{
+	position:relative;
+	bottom:0px;
+	left:0px;
+	margin:0px;
+	text-align:center;
 }
