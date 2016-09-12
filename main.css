@@ -232,8 +232,28 @@ body{
 		top: 17%;
 		left: 33%;
 	}
+	#heading{
+		height:27%;
+	}
 	#heading h1{
 		top:11%;
 		left:5%;
+	}
+	#boxes{
+		top:35%;
+		left:30%;
+		height:27%;
+	}
+	.boxes{
+		display:block;
+		width:32%;
+		margin:0% 4% 5% 4%;
+	}
+	#boxes a{
+		top:33%;
+	}
+	#left,#right{
+		height:73%;
+		width:26%;
 	}
 }
