@@ -36,10 +36,15 @@ body{
 	border:12px solid #f3f3f3;
 	border-top:12px solid red;
 	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
 	height:350px;
 	width:350px;
 	animation:spinloader 3s ease infinite;
-	
+	-webkit-animation:spinloader 3s ease infinite;
+	-moz-animation:spinloader 3s ease infinite;
+	-o-animation:spinloader 3s ease infinite;
+
 	position: fixed;
 	top: 18%;
 	left: 35%;
@@ -48,6 +53,19 @@ body{
 @keyframes spinloader{
 	0%{ transform:rotate(0deg); }
 	100%{ transform:rotate(360deg); }
+}
+
+@-webkit-keyframes spinloader{
+	0%{ -webkit-transform:rotate(0deg); }
+	100%{ -webkit-transform:rotate(360deg); }
+}
+@-moz-keyframes spinloader{
+	0%{ -moz-transform:rotate(0deg); }
+	100%{ -moz-transform:rotate(360deg); }
+}
+@-o-keyframes spinloader{
+	0%{ -o-transform:rotate(0deg); }
+	100%{ -o-transform:rotate(360deg); }
 }
 
 #heading{
@@ -166,9 +184,6 @@ body{
 		left:35%;
 	}
 	#preloader{
-		border:12px solid #f3f3f3;
-		border-top:12px solid red;
-		border-radius:50%;
 		height:200px;
 		width:200px;
 		top: 18%;
