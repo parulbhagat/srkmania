@@ -19,7 +19,7 @@ body{
 	position: fixed;
 	top: 22%;
 	left: 40%;
-	margin:auto;			/*this gives equal margin from left and right side*/				
+	margin:auto;		/*this gives equal margin from left and right side*/				
 }
 #preloader-wrapper p{
 	color:white;
@@ -153,6 +153,26 @@ body{
 	/*mobile*/
 	body{
 		font-size:60%;
+	}
+	#preloader-wrapper img{
+		top: 22%;
+		left: 28%;	
+		width:140px;
+		height:140px;
+	}
+	#preloader-wrapper p{
+		font-size:1.4em;
+		top:74%;
+		left:35%;
+	}
+	#preloader{
+		border:12px solid #f3f3f3;
+		border-top:12px solid red;
+		border-radius:50%;
+		height:200px;
+		width:200px;
+		top: 18%;
+		left: 15%;
 	}
 	#heading{
 		height:25%;
