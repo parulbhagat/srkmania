@@ -152,7 +152,7 @@ body{
 @media screen and (max-width:700px){
 	/*mobile*/
 	body{
-		font-size:60%;
+		font-size:65%;
 	}
 	#preloader-wrapper img{
 		top: 22%;
@@ -202,4 +202,23 @@ body{
 
 @media screen and (min-width:700px) and (max-width:960px){
 	/*meduim sized*/
+	body{
+		font-size:80%;
+	}
+	#preloader-wrapper img{
+		top:22%;
+		left: 38%;	
+		width:200px;
+		height:200px;				
+	}
+	#preloader{
+		height:270px;
+		width:270px;
+		top: 17%;
+		left: 33%;
+	}
+	#heading h1{
+		top:11%;
+		left:5%;
+	}
 }

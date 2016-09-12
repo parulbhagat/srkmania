@@ -154,4 +154,13 @@ h3{
 }
 @media screen and (min-width:700px) and (max-width:960px){
 	/*meduim sized*/
+	#list ul{
+		column-count:2;
+	}
+	#list1 ul{
+		column-count:3;
+	}
+	h4,h5{
+		display:none;
+	}
 }
