@@ -239,6 +239,10 @@ body{
 		top:11%;
 		left:5%;
 	}
+	#heading img{
+		height:84%;
+		width:26%;
+}
 	#boxes{
 		top:35%;
 		left:30%;
