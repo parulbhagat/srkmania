@@ -39,7 +39,44 @@
 /*#list img{
 	float:right;
 }*/
-
+#list1{
+	position:absolute;
+	top:37%;
+	width:100%;
+	margin:0px;	
+}
+#list1 p{
+	font-size:2em;
+	position:relative;
+	padding:0.3% 0% 0.3% 0%;
+	text-align:center;
+	font-weight:bold;
+	text-shadow:1px 1px 1px red;
+}
+#list1 ul{
+	position:relative;
+	left:2%;
+	padding:0%;
+	padding-top:1%;
+	column-count:4;
+	column-fill:auto;
+	width:95%;
+	margin:0px;
+}
+#list1 li{
+	list-style-type:none;
+	padding:5%;
+	font-size:1.3em;
+	display:inline-block;
+}
+#list1 li a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+#list1 li a:hover{
+	text-decoration:underline;
+}
 .video{
 	position:absolute;
 	left:17%;
@@ -49,12 +86,12 @@
 span{
 	text-decoration:underline;
 }
-h2{
+/*h2{
 	position:relative;
 	left:5%;
 	padding:1.5%;
 	padding-bottom:0%;
-}
+}*/
 h4{
 	position:absolute;
 	bottom:1%;
@@ -83,4 +120,38 @@ h3{
 	left:0px;
 	margin:0px;
 	text-align:center;
+}
+#list #poster{
+	width:80px;
+	height:80px;
+}
+
+@media screen and (max-width:700px){
+	/*mobile*/
+	#list1 ul{
+		column-count:2;
+		column-fill:auto;
+	}
+	#list ul{
+		column-count:1;
+		column-fill:auto;
+
+	}
+	#list{
+		top:29%;
+	}
+	#list li{
+		padding:3% 0% 3% 0%;
+		display:block;
+	}
+	#list1{
+		top:29%;
+	}
+	h4,h5,#list #poster{
+		display:none;
+	}
+
+}
+@media screen and (min-width:700px) and (max-width:960px){
+	/*meduim sized*/
 }
