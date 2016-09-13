@@ -20,8 +20,6 @@
 	column-count:4;
 	-webkit-column-count:4;
 	-moz-column-count:4;
-	column-fill:auto;
-	-moz-column-fill:auto;
 	width:95%;
 	margin:0px;
 }
@@ -64,8 +62,6 @@
 	column-count:4;
 	-webkit-column-count:4;
 	-moz-column-count:4;
-	column-fill:auto;
-	-moz-column-fill:auto;
 	width:95%;
 	margin:0px;
 }
@@ -138,15 +134,11 @@ h3{
 		column-count:2;
 		-webkit-column-count:2;
 		-moz-column-count:2;
-		column-fill:auto;
-		-moz-column-fill:auto;
 	}
 	#list ul{
 		column-count:1;
 		-webkit-column-count:1;
 		-moz-column-count:1;
-		column-fill:auto;
-		-moz-column-fill:auto;
 	}
 	#list{
 		top:29%;
