@@ -3,8 +3,9 @@
 	padding:0px;
 }
 body{
-	font:100%;
+	font-size:100%;
 	width:100%;
+	
 }
 #preloader-wrapper{
 	position:fixed;
@@ -242,7 +243,7 @@ body{
 	#heading img{
 		height:85%;
 		width:31%;
-}
+	}
 	#boxes{
 		top:35%;
 		left:30%;

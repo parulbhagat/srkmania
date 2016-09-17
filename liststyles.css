@@ -37,6 +37,9 @@
 #list li a:hover{
 	text-decoration:underline;
 }
+#list li #download{
+	text-shadow:1px 1px 0px red;
+}
 /*#list img{
 	float:right;
 }*/
@@ -93,7 +96,7 @@ span{
 	left:5%;
 	padding:1.5%;
 	padding-bottom:0%;
-}*/
+}
 h4{
 	position:absolute;
 	bottom:1%;
@@ -110,7 +113,7 @@ h5{
 	font-size:0.97em;
 	margin:0px;
 	padding:0px;
-}
+}*/
 h3{
 	position:relative;
 	padding:0.5%;
@@ -126,6 +129,8 @@ h3{
 #list #poster{
 	width:80px;
 	height:80px;
+	position:absolute;
+	right:14%;
 }
 
 @media screen and (max-width:700px){
@@ -175,5 +180,8 @@ h3{
 	}
 	h4,h5{
 		display:none;
+	}
+	#list #poster{
+		right:5%;
 	}
 }
