@@ -11,19 +11,11 @@
 	<link rel="stylesheet" href="../../main.css">
 	<link rel="stylesheet" href="../../liststyles.css">
 	<style>
-		#list #poster{
-			position:absolute;
-			right:36%;
-		}
 		#list ul{
 			text-align:center;
 			column-count:1;
-			column-fill:auto;
-		}
-		@media screen and (min-width:700px) and (max-width:960px){
-			#list #poster{
-				right:5%;
-			}
+			-webkit-column-count:1;
+			-moz-column-count:1;
 		}
 	</style>
 </head>
@@ -45,7 +37,7 @@
 	<p>Fan (2016)</p>
 	<h3></h3>
 	<ul>
-		<li><a href="#">Jabra Fan</a>
+		<li><a href="#">Jabra Fan - <a id="download" href="../../songs/fan.mp3" download>Download</a></a>
 			<div><audio controls>
 				<source src="../../songs/fan.mp3" type="audio/mpeg">
 				</audio>
@@ -54,8 +46,6 @@
 	</ul>
 	
 </div>
-<h5>Songs may take some time to load.</h5>
-<h4>To download right click on the play/pause button and click 'save audio as' option.</h4>
 
 <footer>
 <p>Like the website ? &nbsp Hit&nbsp </p>
