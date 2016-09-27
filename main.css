@@ -167,6 +167,30 @@ body{
 #right{
 	right:0px;
 }
+footer{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	background-color:black;
+	font-weight:bold;
+	font-size:1.2em;
+	color:white;
+	opacity:0.95;
+	text-align:center;
+	padding-bottom:0.35%;
+	padding-top:0.2%;
+}
+footer p,#likebtn{
+	display:inline;
+	padding:0px;
+	margin:0px;
+}
+#likebtn iframe{
+	padding:0%;
+	margin:0px;
+	position:relative;
+	top:5px;
+}
 
 @media screen and (max-width:700px){
 	/*mobile*/
