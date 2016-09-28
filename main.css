@@ -96,6 +96,17 @@ body{
 	height:81%;
 	width:22%;
 }
+#heading p{
+	font-weight:bold;
+	color:white;
+	font-size:1.2em;
+	position:relative;
+	text-align:center;
+	padding-top:0px;
+	margin-top:0px;
+	top:-3%;
+	text-shadow:2px 2px 1px black;
+}
 #navbar ul{
 	background-color:black;
 	opacity:0.8;
@@ -222,6 +233,12 @@ footer p,#likebtn{
 		top:11%;
 		left:10%;
 	}
+	#heading p{
+		left:22%;
+		width:80%;
+		font-size:1.1em;
+		top:2%;
+	}
 	#boxes{
 		top:35%;
 		left:26%;
@@ -267,6 +284,9 @@ footer p,#likebtn{
 	#heading img{
 		height:85%;
 		width:31%;
+	}
+	#heading p{
+		left:10%;
 	}
 	#boxes{
 		top:35%;
