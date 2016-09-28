@@ -149,6 +149,7 @@ h3{
 	}
 	#list{
 		top:29%;
+		margin-bottom:8%;
 	}
 	#list li{
 		padding:3% 0% 3% 0%;
@@ -156,6 +157,7 @@ h3{
 	}
 	#list1{
 		top:29%;
+		margin-bottom:8%;
 	}
 	h4,h5,#list #poster{
 		display:none;
@@ -166,9 +168,11 @@ h3{
 	/*meduim sized*/
 	#list{
 		top:29%;
+		margin-bottom:5%;
 	}
 	#list1{
 		top:29%;
+		margin-bottom:5%;
 	}
 	#list ul{
 		column-count:2;
